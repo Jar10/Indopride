@@ -1,0 +1,69 @@
+body {
+    background-image: url(indo.jpg);
+}
+
+
+.bendera {
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    height: 200px;
+    width: 450px;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid red;
+    border-radius: 5px;
+    max-width: 100%;
+    position: relative;
+}
+
+.atas,
+.bawah {
+    width: 100%;
+    height: 100%;
+}
+
+.atas {
+    background: red;
+}
+
+.bawah {
+    background: white;
+}
+
+.logo {
+    margin-top: 200px;
+    margin-right: 10px;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    float: right;
+    justify-content: right;
+    border: 5px solid white
+}
+
+.text {
+
+    font-size: 50px;
+    margin-top: 180px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: red;
+    position: relative;
+}
+
+.text2 {
+    font-size: 50px;
+    margin-top: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    position: relative;
+}
+
+.text3 {
+    text-align: center;
+    color: red;
+}
